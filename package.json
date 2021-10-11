@@ -1,6 +1,6 @@
 {
   "name": "debug",
-  "version": "5.0.0-canary.0",
+  "version": "4.5.0",
   "type": "module",
   "repository": {
     "type": "git",
