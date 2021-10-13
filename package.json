@@ -56,10 +56,12 @@
     }
   },
   "exports": {
-    "import": "./src/index.mjs"
+    "import": "./src/index.mjs",
+    "require": "./src/index.cjs"
   },
   "browser": {
-    "import": "./src/browser.mjs"
+    "import": "./src/browser.mjs",
+    "require": "./src/browser.cjs"
   },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
