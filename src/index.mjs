@@ -1,7 +1,7 @@
 import humanize from 'ms';
 
-import * as nodeDebug from './node.js';
-import * as browserDebug from './browser.js';
+import * as nodeDebug from './node.mjs';
+import * as browserDebug from './browser.mjs';
 
 
 const backend = (typeof process === 'undefined' || process.type === 'renderer' || process.browser === true || process.__nwjs) ? browserDebug : nodeDebug;

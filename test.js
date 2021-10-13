@@ -1,7 +1,7 @@
 /* eslint-env mocha */
 
 import assert from 'assert';
-import debug from './src/index.js';
+import debug from './src/index.mjs';
 
 describe('debug', () => {
 	it('passes a basic sanity check', () => {
